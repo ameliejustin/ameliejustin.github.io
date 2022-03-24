@@ -1,0 +1,52 @@
+body{
+    background-color: white;
+}
+
+@font-face {
+    font-family: 'macula';
+    src: url('Macula Solid.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'lava';
+    src: url('Pilowlava-Regular.woff') format('woff');
+}
+
+div.poster {
+    background-color: rgb(0, 0, 0);
+    width: 80%;
+}
+
+div.small {
+    font-size: 14px;
+    text-align: center;
+    padding-bottom: 14px;
+    padding-top: 14px;
+    border-top: 1px solid rgb(255, 255, 255);
+    font-family: arial;
+    color: white;
+}
+
+div.text {
+    font-size: 90px;
+    transition: 0.5s;
+    border-top: 1px rgb(216, 214, 214);
+    border-style: groove;
+    padding-bottom: 14px;
+    padding-top: 14px;
+    text-align: center;
+    font-family: 'lava';
+    color: white;
+}
+
+div.text.one {
+    transform: skew(-30deg);
+}
+
+div.text.two {
+    transform: skew(30deg);
+}
+
+div.text.three {
+    transform: skew(60deg);
+}

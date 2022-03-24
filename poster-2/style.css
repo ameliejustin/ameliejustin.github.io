@@ -1,0 +1,44 @@
+body{
+    background-color: white;
+}
+
+div.poster {
+    background-color: rgb(128, 177, 241);
+    width: 80%;
+}
+
+div.small {
+    font-size: 14px;
+    text-align: center;
+    padding-bottom: 14px;
+    padding-top: 14px;
+    border-top: 1px solid rgb(255, 255, 255);
+    font-family: monospace;
+    color: rgb(255, 255, 255);
+}
+
+div.text {
+    font-size: 45px;
+    text-transform: uppercase;
+    transition: 0.5s;
+    padding-bottom: 14px;
+    padding-top: 14px;
+    font-family: monospace;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+div.text.one {
+    transform: scaleY(0.5);
+    background-color: blue;
+}
+
+div.text.two {
+    transform: scaleY(1.5);
+    background-color: cadetblue;
+}
+
+div.text.three {
+    transform: scaleY(2.5);
+    background-color: darkorange;
+}
