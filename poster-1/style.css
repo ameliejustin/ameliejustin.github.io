@@ -28,7 +28,6 @@ div.small {
 }
 
 div.text {
-    font-size: 90px;
     transition: 0.5s;
     border-top: 1px rgb(216, 214, 214);
     border-style: groove;
@@ -41,12 +40,16 @@ div.text {
 
 div.text.one {
     transform: skew(-30deg);
+    font-size: 30px;
 }
 
 div.text.two {
     transform: skew(30deg);
+    font-size: 90px;
+
 }
 
 div.text.three {
     transform: skew(60deg);
+    font-size: 120px;
 }
