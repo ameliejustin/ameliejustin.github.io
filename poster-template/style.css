@@ -24,14 +24,44 @@ div.text {
     border-top: 1px solid black;
 }
 
+/* rule 1*/
+
 div.text.one {
-    font-size: 100px;
+    font-size: 30px;
 }
 
 div.text.two {
-    font-size: 50px;
+    font-size: 60px;
 }
 
 div.text.three {
-    font-size: 20px;
+    font-size: 90px;
+}
+
+/* rule 2 */
+
+div.text.a {
+    color: coral;
+}
+
+div.text.b {
+    color: black;
+}
+
+div.text.c {
+    color: blue;
+}
+
+/* rule 3 */
+
+div.text.x {
+    text-align: left;
+}
+
+div.text.y {
+    text-align: center;
+}
+
+div.text.z {
+    text-align: right;
 }

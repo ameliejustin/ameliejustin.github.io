@@ -2,6 +2,11 @@ body{
     background-color: white;
 }
 
+@font-face {
+    font-family: 'spacemono';
+    src: url('SpaceMono-Regular.woff') format('woff');
+}
+
 div.poster {
     background-color: rgb(128, 177, 241);
     width: 80%;
@@ -13,7 +18,7 @@ div.small {
     padding-bottom: 14px;
     padding-top: 14px;
     border-top: 1px solid rgb(255, 255, 255);
-    font-family: monospace;
+    font-family: 'spacemono';
     color: rgb(255, 255, 255);
 }
 
@@ -23,7 +28,7 @@ div.text {
     transition: 0.5s;
     padding-bottom: 14px;
     padding-top: 14px;
-    font-family: monospace;
+    font-family: 'spacemono';
     color: rgb(0, 0, 0);
     text-align: center;
 }
