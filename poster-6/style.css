@@ -1,10 +1,25 @@
 body{
-    background-color: black;
+    background-color: black; 
+}
+
+@font-face {
+    font-family: 'ketchup';
+    src: url('KetchupAddict-Regular_BSiim.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'heavy';
+    src: url('heavy.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'space';
+    src: url('SpaceMono-Bold.woff') format('woff');
 }
 
 div.poster {
-    background-color: pink;
-    width: 75%;
+    background-color: rgb(255, 247, 249);
+    width: 65%;
 }
 
 div.container{
@@ -15,6 +30,7 @@ div.container{
 div.col{
     overflow: hidden;
 }
+
 
  /* thirds grid */
 
@@ -62,57 +78,57 @@ div.small {
     font-size: 24px;
     padding-top: 14px;
     font-family: helvetica;
-    color: white;
+    color: rgb(255, 190, 212);
 }
 
 div.text {
+    font-size: 60px;
     font-family: helvetica;
     text-transform: uppercase;
     text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
     transition: 0.5s;
 }
 
 /* rule 1*/
 
 div.text.one {
-    font-size: 60px;
-    border-radius: 20px;
+    font-family: 'ketchup';
 }
 
 div.text.two {
-   font-size: 90px;
-   border-radius: 40px;
+    font-family: 'heavy';
 }
 
 div.text.three {
-    font-size: 120px;
-    border-radius: 60px;
+    font-family: 'space';
 }
 
 /* rule 2 */
 
 div.text.a {
-    color: coral;
+    text-shadow: 3px 3px 12px palevioletred;
 }
 
 div.text.b {
-    color: greenyellow;
+    text-shadow: 9px 9px 24px blue;
 }
 
 div.text.c {
-    color: blue;
+    text-shadow: -12px -12px 30px orangered;
 }
 
 /* rule 3 */
 
 div.text.x {
-    background-color: yellow;
+    transform: skew(15deg);
 }
 
 div.text.y {
-    background-color: orange;
+    transform: skew(-15deg);
 }
 
 div.text.z {
-    background-color: orchid;
+    transform: skew(30deg);
 }

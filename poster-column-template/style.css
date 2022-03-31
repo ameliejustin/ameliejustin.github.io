@@ -13,7 +13,6 @@ div.container{
 }
 
 div.col{
-    outline: 1px solid cyan;
     overflow: hidden;
 }
 
@@ -38,7 +37,7 @@ div.w1-2{
 }
 
 div.w2-2{
-    width: 75%;
+    width: 100%;
 }
 
 /* fourth grid */
@@ -60,10 +59,10 @@ div.w4-4{
 }
 
 div.small {
-    font-size: 14px;
-    padding-bottom: 14px;
+    font-size: 24px;
     padding-top: 14px;
     font-family: helvetica;
+    color: white;
 }
 
 div.text {
@@ -75,15 +74,21 @@ div.text {
 /* rule 1*/
 
 div.text.one {
-    font-size: 40px;
+    font-size: 90px;
+    border-radius: 20px;
+    text-align: center;
 }
 
 div.text.two {
-    font-size: 40px;
+    font-size: 90px;
+    border-radius: 30px;
+    text-align: center;
 }
 
 div.text.three {
-    font-size: 40px;
+    font-size: 90px;
+    border-radius: 40px;
+    text-align: center;
 }
 
 /* rule 2 */
@@ -111,5 +116,5 @@ div.text.y {
 }
 
 div.text.z {
-    background-color: crimson;
+    background-color: orchid;
 }
