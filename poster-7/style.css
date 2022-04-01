@@ -1,0 +1,144 @@
+body{
+    background-color: black;
+}
+
+@font-face {
+    font-family: 'heavy';
+    src: url('heavy1.woff') format('woff');
+}
+
+div.poster {
+    background-color: rgb(151, 209, 247);
+    width: 75%;
+    background-image: url('NGV.JPG');
+    background-repeat:no-repeat ;
+    background-size: 300px;
+    background-position: top right;
+}
+
+div.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.col{
+    overflow: hidden;
+}
+
+ /* thirds grid */
+
+div.w1-3{
+    width: 33.333%;
+}
+
+div.w2-3{
+    width: 66%;
+}
+
+div.w3-3{
+    width: 100%;
+}
+
+/* half widths */
+
+div.w1-2{
+    width: 50%;
+}
+
+div.w2-2{
+    width: 100%;
+}
+
+/* fourth grid */
+
+div.w1-4{
+   width: 25%;
+}
+
+div.w2-4{
+    width:50%;
+}
+
+div.w3-4{
+    width: 75%;
+}
+
+div.w4-4{
+    width: 100%;
+}
+
+div.text {
+    font-family: helvetica;
+    text-transform: uppercase;
+    text-align: left;
+    color: black;
+    transition: 0.5s;
+}
+
+div.header {
+    font-family: 'heavy';
+    font-size: 50px;
+    text-transform: uppercase;
+    text-align: left;
+    color: white;
+}
+
+div.small {
+    font-family: 'heavy';
+    font-size: 24px;
+    text-transform: uppercase;
+    text-align: right;
+    color: white;
+    padding-top: 40px;
+}
+
+/* rule 1*/
+
+div.text.one {
+    font-size: 30px;
+}
+
+div.text.two {
+    font-size: 50px;
+}
+
+div.text.three {
+    font-size: 80px;
+}
+
+/* rule 2 */
+
+div.text.a {
+    background-image:url('shape1-white.png');
+    background-repeat: no-repeat;
+    background-size: 60px;
+    background-position: center center;
+}
+
+div.text.b {
+    background-image:url('shape2-white.png');
+    background-repeat: no-repeat;
+    background-size: 100px;
+    background-position: left center;
+}
+
+div.text.c {
+    background-image:url('shape3-white.png');
+    background-repeat: no-repeat;
+    background-size: 120px;
+    background-position: right center;
+}
+
+/* rule 3 */
+
+div.text.x {
+    color: blue;
+}
+
+div.text.y {
+    color: transparent;
+}
+
+div.text.z {
+    color: orangered;
+}

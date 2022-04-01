@@ -3,8 +3,8 @@ body{
 }
 
 @font-face {
-    font-family: 'santase';
-    src: url('worksanstase-nr_3.woff') format('woff');
+    font-family: 'sniglet';
+    src: url('Sniglet-web.woff') format('woff');
 }
 
 
@@ -73,9 +73,9 @@ div.small {
 }
 
 div.text {
-    font-family: 'santase';
-    text-transform: lowercase;
+    font-family:'sniglet';
     text-align: center;
+    text-transform: lowercase;
     border-radius: 200px;
     transition: 0.5s;
     color: white;
@@ -84,15 +84,15 @@ div.text {
 /* rule 1*/
 
 div.text.one {
-    font-size: 80px;
+    font-size: 60px;
 }
 
 div.text.two {
-    font-size: 120px;
+    font-size: 90px;
 }
 
 div.text.three {
-    font-size: 160px;
+    font-size: 120px;
 }
 
 /* rule 2 */
