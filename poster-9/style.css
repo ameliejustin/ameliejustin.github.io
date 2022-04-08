@@ -3,16 +3,16 @@ body{
 }
 
 @font-face {
-    font-family: 'heavy';
-    src: url('heavy1.woff') format('woff');
+    font-family: 'space';
+    src: url('SpaceMono-Bold1.woff') format('woff');
 }
 
 div.poster {
     background-color: rgb(151, 209, 247);
     width: 75%;
-    background-image: url('watertexture.jpg');
+    background-image: url('BYOB_shape.png');
     background-repeat:no-repeat;
-    background-size: 400px;
+    background-size: 500px;
     background-position: top right;
 }
 
@@ -68,7 +68,7 @@ div.w4-4{
 }
 
 div.text {
-    font-family: helvetica;
+    font-family: 'space';
     text-transform: uppercase;
     text-align: left;
     color: black;
@@ -76,20 +76,25 @@ div.text {
 }
 
 div.header {
-    font-family: 'heavy';
-    font-size: 50px;
+    font-family: 'helvetica';
+    font-size: 24px;
+    font-style: italic;
     text-transform: uppercase;
     text-align: left;
     color: white;
+    padding-top: 10px;
+    padding-left: 10px;
 }
 
 div.small {
-    font-family: 'heavy';
-    font-size: 24px;
+    font-family: 'helvetica';
+    font-size: 14px;
+    font-style: italic;
     text-transform: uppercase;
     text-align: right;
     color: white;
-    padding-top: 40px;
+    padding-bottom: 10px;
+    padding-right: 10px;
 }
 
 /* rule 1*/
@@ -140,5 +145,5 @@ div.text.y {
 }
 
 div.text.z {
-    color: orangered;
+    color: fuchsia;
 }
