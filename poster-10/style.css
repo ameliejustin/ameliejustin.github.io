@@ -1,0 +1,127 @@
+body{
+    background-color: black;
+}
+
+@font-face {
+    font-family: 'wave';
+    src: url('knewave-webfont.woff') format('woff');
+}
+
+div.poster {
+    background-color: black;
+    width: 75%;
+    background-image: url('metallic.jpg');
+    background-repeat:no-repeat;
+    background-size: 1500px;
+    background-position: center center;
+}
+
+div.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.col{
+    overflow: hidden;
+}
+
+ /* thirds grid */
+
+div.w1-3{
+    width: 33.333%;
+}
+
+div.w2-3{
+    width: 66%;
+}
+
+div.w3-3{
+    width: 100%;
+}
+
+/* half widths */
+
+div.w1-2{
+    width: 50%;
+}
+
+div.w2-2{
+    width: 100%;
+}
+
+/* fourth grid */
+
+div.w1-4{
+   width: 25%;
+}
+
+div.w2-4{
+    width:50%;
+}
+
+div.w3-4{
+    width: 75%;
+}
+
+div.w4-4{
+    width: 100%;
+}
+
+div.small {
+    font-family: 'helvetica';
+    font-size: 21px;
+    text-align: center;
+    color: white;
+}
+
+div.text {
+    font-family: helvetica;
+    font-size: 90px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+    transition: 1.0s;
+}
+
+/* rule 1*/
+
+div.text.one {
+    color: transparent;
+}
+
+div.text.two {
+    text-transform: lowercase;
+}
+
+div.text.three {
+    text-transform: uppercase;
+}
+
+/* rule 2 */
+
+div.text.a {
+    transform: rotate(180deg);
+}
+
+div.text.b {
+    transform: rotate(360deg);
+}
+
+div.text.c {
+    transform: rotate (0deg);
+}
+
+/* rule 3 */
+
+div.text.x {
+    background-color: yellow;
+}
+
+div.text.y {
+    background-color: rgb(255, 250, 107);
+}
+
+div.text.z {
+    background-color: rgb(252, 252, 162);
+}

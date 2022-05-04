@@ -1,0 +1,71 @@
+body{
+    background-color: black;
+}
+
+div.poster {
+    width: 75%;
+    background: radial-gradient(black, blue);
+    overflow: hidden;
+}
+
+div.small {
+    font-size: 14px;
+    font-family: arial;
+    color: coral;
+    text-align: center;
+    padding-bottom: 14px;
+    padding-top: 14px;
+    border-top: 1px dashed coral;   
+}
+
+div.text {
+    font-size: 90px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: arial;
+    transition: 1s;
+}
+
+/* rule 1*/
+
+div.text.one {
+    letter-spacing:5px;
+}
+
+div.text.two {
+    letter-spacing:15px;
+}
+
+div.text.three {
+    letter-spacing:30px;
+    text-shadow: -12px -12px 30px coral;
+}
+
+/* rule 2 */
+
+div.text.a {
+    color: coral;
+}
+
+div.text.b {
+    color: black;
+}
+
+div.text.c {
+    color: blue;
+}
+
+/* rule 3 */
+
+div.text.x {
+    text-align: left;
+}
+
+div.text.y {
+    text-align: center;
+    color: transparent;
+}
+
+div.text.z {
+    text-align: right;
+}

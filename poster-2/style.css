@@ -17,33 +17,57 @@ div.small {
     text-align: center;
     padding-bottom: 14px;
     padding-top: 14px;
-    border-top: 1px solid rgb(255, 255, 255);
+    border-top: 1px solid black;
     font-family: 'spacemono';
     color: rgb(255, 255, 255);
 }
 
 div.text {
-    font-size: 45px;
-    text-transform: uppercase;
-    transition: 0.5s;
-    padding-bottom: 14px;
-    padding-top: 14px;
     font-family: 'spacemono';
+    text-transform: uppercase;
+    border-top: 1px solid black;
     color: rgb(0, 0, 0);
-    text-align: center;
+    transition: 0.5s;
 }
 
+/* rule 1*/
+
 div.text.one {
-    transform: scaleY(0.5);
-    background-color: blue;
+   text-align: center;
 }
 
 div.text.two {
-    transform: scaleY(1.5);
-    background-color: cadetblue;
+    font-size: left;
 }
 
 div.text.three {
-    transform: scaleY(2.5);
-    background-color: darkorange;
+    font-size: right;
 }
+
+/* rule 2*/
+
+div.text.a {
+    text-align: 20px;
+ }
+ 
+ div.text.b {
+     font-size: 60px;
+ }
+ 
+ div.text.c {
+     font-size: 100px;
+ }
+
+ /* rule 3*/
+
+div.text.x {
+    text-align: center;
+ }
+ 
+ div.text.y {
+     font-size: 60px;
+ }
+ 
+ div.text.z {
+     font-size: 100px;
+ }
