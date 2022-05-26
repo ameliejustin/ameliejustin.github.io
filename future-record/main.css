@@ -1,3 +1,258 @@
+@font-face {
+    font-family: 'andalemono';
+    src: url('ANDALEMO.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'poppins';
+    src: url('Poppins-Light.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'poppinsbold';
+    src: url('Poppins-Bold.woff') format('woff');
+}
+
 body {
-    background-color: darkslategrey;
+    background-color: rgb(255, 255, 245);
+    font-family: 'poppins';
+    font-size: 20px;
+}
+
+img {
+    width: 100%;
+}
+
+div.header {
+    display: flex;
+    flex-wrap: wrap;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    padding: 10px;
+    width: 75%;
+    border-bottom: 1px solid black;
+    background-color: rgb(255, 255, 245);
+    color: rgb(24, 140, 255);
+}
+
+div.header-one {
+    width: 50%;
+}
+
+div.header-two {
+    width: 50%;
+}
+
+div.masthead {
+    font-size: 50vw;
+}
+
+div.title {
+    font-family: 'poppinsbold';
+    font-size: 144px;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+div.title.sashimi{
+    padding-top: 100px;
+}
+
+div.keywords {
+    font-size: 34px;
+    font-family: Times;
+    text-align: center;
+    color: rgb(24, 140, 255);
+}
+
+div.container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 40px;
+}
+
+div.item {
+    width: 33.33%;
+    padding: 20px;
+    text-align: center;
+}
+
+div.item.feature {
+    border: rgb(24, 140, 255) 2px dotted ;
+}
+
+div.item.pushright {
+    margin-right: 33.333%;
+}
+
+div.item-filter {
+    font-size: 72px;
+    font-family: times;
+    color: rgb(24, 140, 255);
+}
+
+div.caption {
+    text-align: center;
+    font-family: 'andalemono';
+    font-size: 14px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(198, 198, 198);
+    color: white;
+    border-radius: 50px;
+    display: block;
+}
+
+div.caption.feature {
+    font-size: 40px;
+}
+
+div.page {
+    display: flex;
+    flex: wrap;
+}
+
+div.main {
+    width: 75%;
+}
+
+div.sidebar {
+    width: 25%;
+    height: 100vh;
+    border-left: solid black 1px;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    background-color: rgb(255, 255, 245);
+    overflow: scroll;
+}
+
+div.about {
+    font-family: times;
+    font-size: 40px;
+    padding: 10px;
+    line-height: 1.2;
+    text-align: center;
+}
+
+div.logo {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    font-family: times;
+    padding: 20px;
+    text-align: left;
+}
+
+div.logo.details {
+    width: 75%;
+}
+
+div.subheading {
+    font-family: times;
+    font-size: 36px;
+    padding: 20px;
+    text-align: center;  
+    color: black;  
+    border-bottom: 1px solid black;
+}
+
+div.footer {
+    display: flex;
+    flex-wrap: wrap;
+    bottom: 0px;
+    left: 0px;
+    padding: 10px;
+    border-top: 1px solid black;
+    width: 100%;
+}
+
+div.one {
+    font-size: 14px;
+    width: 75%;
+    padding: 20px;
+    padding-left: 40px;
+    color: rgb(24, 140, 255);
+}
+
+div.two {
+    font-size: 14px;
+    width: 25%;
+    padding: 20px;
+    color: rgb(24, 140, 255);
+    text-align: center;
+}
+
+div.featureimage {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.title.sashimi {
+    color: rgb(24, 140, 255);
+    border-top: 0px;
+}
+
+div.title.subtitle {
+    font-size: 80px;
+    color: rgb(24, 140, 255);
+    line-height: 0.7;
+}
+
+div.footnotes {
+    display: flex;
+    flex-wrap: wrap;
+    bottom: 0px;
+    left: 0px;
+    padding: 20px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    width: 100%;
+    font-size: 14px;
+}
+
+div.note {
+    width: 33.333%;
+    padding-left: 20px;
+}
+
+div.note.list {
+    padding-left: 80px;
+}
+
+div.note.main {
+    display: flex;
+    flex-wrap: wrap;
+    bottom: 0px;
+    left: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top: 1px solid black;
+    width: 100%;
+    font-size: 14px;
+}
+
+div.note.one {
+    width: 25%;
+    text-align: right;
+    color: black;
+}
+
+div.note.two {
+    width: 75%;
+    text-align: left;
+    color: black;
+}
+
+div.note.three {
+    width: 25%;
+    text-align: right;
+    color: black;
+}
+
+div.note.four {
+    width: 75%;
+    color: black;
 }

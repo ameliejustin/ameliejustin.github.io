@@ -1,0 +1,92 @@
+body {
+    background-color: rgb(255, 255, 245);
+    font-family: Arial;
+    font-size: 24px;
+}
+
+img {
+    width: 100%;
+}
+
+div.header {
+    display: flex;
+    flex-wrap: wrap;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    padding: 10px;
+    width: 100%;
+    box-shadow: 10px 0px 10px grey;
+    background-color: rgb(255, 255, 245);
+}
+
+div.logo {
+    font-size: 40px;
+    width: 50%;
+    padding: 20px;
+}
+
+div.nav {
+    width: 50%;
+    padding: 20px;
+}
+
+div.masthead {
+    font-size: 70vw;
+}
+
+div.about {
+    font-family: times;
+    font-size: 72px;
+}
+
+div.title {
+    font-size: 144px;
+    text-align: center;
+    margin-top: 100px;
+    border-top: solid 1px black;
+}
+
+div.keywords {
+    font-size: 34px;
+    font-family: Times;
+    text-align: center;
+}
+
+div.container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 40px;
+}
+
+div.item {
+    width: 33.33%;
+    padding: 20px;
+}
+
+div.item.feature {
+    background-color: antiquewhite;
+}
+
+div.item.pushright {
+    margin-right: 33.333%;
+}
+
+div.item-filter {
+    font-size: 72px;
+    font-family: times;
+    color: rgb(24, 140, 255);
+}
+
+div.page {
+    display: flex;
+    flex: wrap;
+}
+
+div.main {
+    width: 66.666%;
+}
+
+div.sidebar {
+    width: 33.333%;
+}
