@@ -4,6 +4,11 @@
 }
 
 @font-face {
+    font-family: 'cardo';
+    src: url('Cardo-Regular.woff') format('woff'); 
+}
+
+@font-face {
     font-family: 'poppins';
     src: url('Poppins-Light.woff') format('woff');
 }
@@ -15,8 +20,8 @@
 
 body {
     background-color: rgb(255, 255, 245);
-    font-family: 'poppins';
-    font-size: 20px;
+    font-family: 'cardo';
+    font-size: 14px;
 }
 
 img {
@@ -29,19 +34,23 @@ div.header {
     position: fixed;
     top: 0px;
     left: 0px;
+    z-index: 10;
     padding: 10px;
     width: 75%;
     border-bottom: 1px solid black;
     background-color: rgb(255, 255, 245);
     color: rgb(24, 140, 255);
+    font-size: 20px;
 }
 
 div.header-one {
     width: 50%;
+    padding-left: 40px;
 }
 
 div.header-two {
     width: 50%;
+    padding-left: 40px;
 }
 
 div.masthead {
@@ -55,13 +64,35 @@ div.title {
     padding-bottom: 40px;
 }
 
-div.title.sashimi{
-    padding-top: 100px;
+div.title:hover {
+    color: rgb(24, 140, 255);
+    transition: 0.5s;
+}
+
+div.title.sashimi {
+    color: black;
+    border-top: 0px;
+}
+
+div.title.sashimi:hover {
+    color: rgb(24, 140, 255);
+    transition: 0.5s;
+}
+
+div.title.depleted {
+    font-size: 80px;
+    color: black;
+    line-height: 1.1;
+}
+
+div.title.depleted:hover {
+    color: transparent;
+    transition: 0.5s;
 }
 
 div.keywords {
     font-size: 34px;
-    font-family: Times;
+    font-family: 'cardo';
     text-align: center;
     color: rgb(24, 140, 255);
 }
@@ -72,24 +103,49 @@ div.container {
     padding: 40px;
 }
 
+div.left {
+    width: 50%;
+}
+
+div.left:hover {
+    transform: scale(1.2);
+    transition: 1s;
+}
+
+div.right {
+    width: 50%;
+    padding-left: 20px;
+    padding-top: 80px;
+    font-family: 'cardo';
+    font-size: 20px;
+    text-align: right;
+}
+
 div.item {
     width: 33.33%;
     padding: 20px;
     text-align: center;
+    transition: 1s;
 }
 
-div.item.feature {
-    border: rgb(24, 140, 255) 2px dotted ;
+div.item.feature:hover {
+    transform: scale(1.1);
+    transition: 1s;
 }
 
 div.item.pushright {
     margin-right: 33.333%;
 }
 
+div.item img {
+    border: 1px solid black;
+}
+
 div.item-filter {
     font-size: 72px;
-    font-family: times;
+    font-family: 'cardo';
     color: rgb(24, 140, 255);
+    text-align: center;
 }
 
 div.caption {
@@ -98,8 +154,8 @@ div.caption {
     font-size: 14px;
     padding-top: 10px;
     padding-bottom: 10px;
-    background-color: rgb(198, 198, 198);
-    color: white;
+    border: 1px solid black;
+    color: black;
     border-radius: 50px;
     display: block;
 }
@@ -129,24 +185,31 @@ div.sidebar {
 }
 
 div.about {
-    font-family: times;
-    font-size: 40px;
+    font-family: 'cardo';
+    font-size: 38px;
     padding: 10px;
     line-height: 1.2;
-    text-align: center;
+    text-align: justify;
+    hyphens: auto;
+    
 }
 
 div.logo {
     display: flex;
     flex-wrap: wrap;
     width: 50%;
-    font-family: times;
+    font-family: 'cardo';
     padding: 20px;
     text-align: left;
 }
 
 div.logo.details {
     width: 75%;
+}
+
+div.logo:hover {
+    transform: scale(1.2);
+    transition: 1s;
 }
 
 div.subheading {
@@ -168,16 +231,14 @@ div.footer {
     width: 100%;
 }
 
-div.one {
-    font-size: 14px;
+div.footer div.one {
     width: 75%;
     padding: 20px;
     padding-left: 40px;
     color: rgb(24, 140, 255);
 }
 
-div.two {
-    font-size: 14px;
+div.footer div.two {
     width: 25%;
     padding: 20px;
     color: rgb(24, 140, 255);
@@ -190,15 +251,30 @@ div.featureimage {
     margin-right: auto;
 }
 
-div.title.sashimi {
-    color: rgb(24, 140, 255);
-    border-top: 0px;
+div.catalogue {
+    display: flex;
+    flex-wrap: wrap;
+    bottom: 0px;
+    left: 0px;
+    padding: 20px;
+    width: 100%;
+    font-size: 14px;
+    font-family: 'andalemono';
 }
 
-div.title.subtitle {
-    font-size: 80px;
-    color: rgb(24, 140, 255);
-    line-height: 0.7;
+div.machine {
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+
+div.label {
+    width: 33.333%;
+    text-align: center;
+}
+
+div.label:hover {
+    color: transparent;
+    transition: 1s;
 }
 
 div.footnotes {
@@ -211,6 +287,7 @@ div.footnotes {
     border-bottom: 1px solid black;
     width: 100%;
     font-size: 14px;
+    font-family: 'andalemono';
 }
 
 div.note {
@@ -220,6 +297,14 @@ div.note {
 
 div.note.list {
     padding-left: 80px;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: rgb(24, 140, 255);
 }
 
 div.note.main {
@@ -232,6 +317,7 @@ div.note.main {
     border-top: 1px solid black;
     width: 100%;
     font-size: 14px;
+    font-family: 'andalemono';
 }
 
 div.note.one {
@@ -244,6 +330,8 @@ div.note.two {
     width: 75%;
     text-align: left;
     color: black;
+    margin-bottom: 20px;
+    padding-right: 10px;
 }
 
 div.note.three {
@@ -255,4 +343,22 @@ div.note.three {
 div.note.four {
     width: 75%;
     color: black;
+    padding-right: 10px;
+}
+
+div.image.grid {
+    width: 50%;
+    text-align: center;    
+    font-size: 14px;
+    font-family: 'andalemono';
+}
+
+div.image.scatter {
+    width: 50%;
+    padding-top: 40px;
+    padding: 10px;
+    text-align: center;    
+    font-size: 14px;
+    font-family: 'andalemono';
+    line-height: 2;
 }
