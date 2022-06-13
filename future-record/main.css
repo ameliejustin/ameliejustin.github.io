@@ -9,11 +9,6 @@
 }
 
 @font-face {
-    font-family: 'poppins';
-    src: url('Poppins-Light.woff') format('woff');
-}
-
-@font-face {
     font-family: 'poppinsbold';
     src: url('Poppins-Bold.woff') format('woff');
 }
